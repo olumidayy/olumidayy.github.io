@@ -5,6 +5,9 @@ body {
     margin: 0;
     padding: 0;
     height: 100%;
+    width: 100%;
+    display: grid;
+    grid-template-columns: 1fr;
 }
 
 header {
@@ -287,6 +290,10 @@ input {
     text-align: left;
 }
 
+.logs-2 {
+    text-align: left;
+}
+
 .about-and-co {
     margin-left: 10px; 
     margin-right: 25px;
@@ -378,6 +385,10 @@ input {
         margin: auto;
     }
 
+    .just-body{
+        width: auto;
+    }
+
     .links li {
         margin-right: 25px;
     }
@@ -444,6 +455,13 @@ input {
         margin: auto;
     }
 
+    .just-body{
+        width: 350px;
+        margin: auto;
+        display: grid;
+        grid-template-columns: auto;
+    }
+
     .part-2 {
         margin: auto;
     }
@@ -452,7 +470,9 @@ input {
         display: grid;
         grid-template-columns: 1fr;
         height: auto;
-        width: 350px;
+        width: 300px;
+        left: 0;
+        right: 0;
     }
 
     .email {
@@ -492,16 +512,14 @@ input {
         margin: 0;
     }
 
-    .get-early {
-        width: 300px;
-    }
-
     .get-early > p {
-        width: 300px;
+        width: 280px;
     }
 
     .logs-2 {
         margin-top: 100px;
+        margin-left: -40px;
+        text-align: center;
     }
 
     .links li {
