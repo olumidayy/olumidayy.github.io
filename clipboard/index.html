@@ -3,256 +3,160 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
-  <link rel="stylesheet" href="assets/css/style.css">
-  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
-  <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@500&display=swap" rel="stylesheet">
-  <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600&display=swap" rel="stylesheet">
-  <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
-  <title>Frontend Mentor | Fylo landing page with dark theme and features grid</title>
+
+  <link rel="icon" type="image/png" sizes="32x32" href="src/tomato.svg">
+  <link rel="stylesheet" type="text/css" href="src/style.css">
   
+  <title>Just checking in</title>
+
+  
+
   <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
-  <style>
+  <!-- <style>
     .attribution { font-size: 11px; text-align: center; }
     .attribution a { color: hsl(228, 45%, 44%); }
-  </style>
+  </style> -->
 </head>
 <body class="center">
 
-  <header data-aos="fade-right"
-  data-aos-duration="3000">
-    <div class="nav-bar" >
-      <div class="logo"><img src="images/logo.svg" class="logs" alt=""></div>
-      <div>
-        <ul class="links">
-          <li><a href="#">Features</a></li>
-          <li><a href="#">Team</a></li>
-          <li><a href="#">Sign In</a></li>
-        </ul>
+  <header class="header center">
+    <div class="logo">
+      <img src="images/logo.svg" alt="">
     </div>
+    <p></p>
   </header>
 
-  <section class="just-body center">
-    <div class="part-1 one-fr center"
-      data-aos="fade-left"
-      data-aos-duration="3000">
-      <div><img src="images/illustration-intro.png" alt=""></div>
-      <p class="title">All your files in one secure location, accessible anywhere.</p>
-      <br>
-      <p class="part-1-p">
-        Fylo stores all your most important files in one secure location. Access them wherever 
-        you need, share and collaborate with friends family, and co-workers.
-      </p>
-      <div>
-        <button class="get-started"><a href="#">Get Started</a></button>
-      </div>
-    </div>
-
-    <div class="part-2 two-fr" data-aos="fade-up"
-    data-aos-duration="3000">
-      <div class="one-fr part-2-section center" data-aos="fade-down"
-      data-aos-duration="3000">
-        <span><img src="images/icon-access-anywhere.svg" alt=""></span>
-        <p class="subtitle">Access your files, anywhere</p>
-        <p>
-          The ability to use a smartphone, tablet, or computer to access your account means your 
-          files follow you everywhere.
-        </p>
-      </div>
-      <div class="one-fr part-2-section center" data-aos="fade-down"
-      data-aos-duration="3000">
-        <span><img src="images/icon-security.svg" alt=""></span>
-        <p class="subtitle">Security you can trust</p>
-        <p>
-          2-factor authentication and user-controlled encryption are just a couple of the security 
-          features we allow to help secure your files.
-        </p>
-      </div>
-      <div class="one-fr part-2-section center" data-aos="zoom-in"
-      data-aos-duration="2000">
-        <span><img src="images/icon-collaboration.svg" alt=""></span>
-        <p class="subtitle">Real-time collaboration</p>
-        <p>
-          Securely share files and folders with friends, family and colleagues for live collaboration. 
-          No email attachments required.
-        </p>
-      </div>
-      <div class="one-fr part-2-section center" data-aos="zoom-in"
-      data-aos-duration="2000">
-        <span><img src="images/icon-any-file.svg" alt=""></span>
-        <p class="subtitle">Store any type of file</p>
-        <p>
-          Whether you're sharing holidays photos or work documents, Fylo has you covered allowing for all 
-          file types to be securely stored and shared.
-        </p>
-      </div>
-    </div>
-
-    <div class="part-3 two-fr" data-aos="fade-down"
-      data-aos-duration="2000">
-      <div data-aos="fade-down"
-      data-aos-duration="3000"><img src="images/illustration-stay-productive.png" sizes="300x300" alt=""></div>
-      <div class="part-3b" data-aos="fade-up"
-      data-aos-duration="3000">
-        <p class="title">Stay productive, wherever you are</p>
-        <p>
-          Never let location be an issue when accessing your files. Fylo has you covered for all of your file 
-          storage needs.
-        </p>
-        <br>
-        <p>
-          Securely share files and folders with friends, family and colleagues for live collaboration. No email 
-          attachments required.
-        </p>
-        <div style="display: flex;">
-          <p><a href="#" style="color: hsl(176, 68%, 64%); text-decoration: underline;">
-            See how Fylo works
-          </a></p>
-          <div style="margin-top: 4px; margin-left: 2px;">
-            <img src="images/icon-arrow.svg" style="width: 10px; height: 10px; margin-top: 11px; " alt="">
-          </div>
-        </div>
-      </div>
-    </div>
-
-    <div class="part-4 three-fr"
-      data-aos="fade-right"
-      data-aos-duration="2000">
-      <div class="quotes"><img src="images/bg-quotes.png" alt=""></div>
-      <div class="testimony" data-aos="flip-left"
-      data-aos-duration="3000">
-        <p>
-          Fylo has improved our team productivity by an order of magnitude. Since making the switch our team has 
-          become a well-oiled collaboration machine.
-        </p>
-        <div class="profile">
-          <div><img src="images/profile-1.jpg" alt="" class="dp"></div>
-          <div class="texts">
-            <p class="name">Nwosu Olumide</p>
-            <p class="company">Founder & CEO, Huddle</p>
-          </div>
-        </div>
-      </div>
-      <div class="testimony"
-      data-aos="flip-up"
-     data-aos-duration="3000">
-        <p>
-          Fylo has improved our team productivity by an order of magnitude. Since making the switch our team has 
-          become a well-oiled collaboration machine.
-        </p>
-        <div class="profile">
-          <div><img src="images/profile-3.jpg" alt="" class="dp"></div>
-          <div class="texts">
-            <p class="name">Nwafor Kingsley</p>
-            <p class="company">Founder & CEO, Huddle</p>
-          </div>
-        </div>
-      </div>
-      <div class="testimony"
-      data-aos="flip-right"
-      data-aos-duration="3000">
-        <p>
-          Fylo has improved our team productivity by an order of magnitude. Since making the switch our team has 
-          become a well-oiled collaboration machine.
-        </p>
-        <div class="profile">
-          <div><img src="images/profile-2.jpg" alt="" class="dp"></div>
-          <div class="texts">
-            <p class="name">Ivan Boyd</p>
-            <p class="company">Founder & CEO, Huddle</p>
-          </div>
-        </div>
-       
-      </div>
-    </div>
-  </section>
-
-  <footer style="text-align: center; padding-top: 43px;
-  padding-bottom: 29px;justify-content: center; background-color: hsl(216, 53%, 9%); position: relative;">
-    <div class="get-early" data-aos="zoom-in-up"
-      data-aos-duration="3000">
-      <h2>Get early access today</h2>
-      <p>
-        It only takes a minute to sign up and our free starter tier is extremely generous. If you have any 
-        questions, our support team would be happy to help you.
-      </p>
-      <div class="email">
-        <form action="email">
-          <input type="text" placeholder="example@fylo.com">
-        </form>
-        <div>
-          <button class="get-started">
-            <p>Get Started For Free</p>
-          </button>
-        </div>
-      </div>
-    </div>
-
-
-    <div class="logs-2"> <img src="images/logo.svg" style="margin-top: 10px; margin-left: 50px;" alt=""></div>
-    <div class="footer-gangan">
-      <div style="text-align: left; margin-bottom: 30px; background-color: hsl(216, 53%, 9%);">
-        <div class="lorem" style="display: flex;">
-          <img src="images/icon-location.svg" style="margin-right: 10px; margin-top: 11px;" width="10px" height="10px" alt="">
-          <p>
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et 
-            dolore magna aliqua
-          </p>
-        </div>
-      </div>
-
-      <div class="contacts-div">
-        <div style="display: flex;">
-          <div><img src="images/icon-phone.svg" class="contacts" width="10px" height="10px" alt=""></div>
-          <p>
-            +1-543-123-4567
-          </p>
-        </div>
-
-        <div class="flex-left">
-          <div><img src="images/icon-email.svg" class="contacts" width="10px" height="10px"  alt=""></div>
-          <p>
-            example@fylo.com
-          </p>
-        </div>
-      </div>
-
-      <div class="flex-around about">
-        <div class="about-and-co">
-          <p>About Us</p>
-          <p>Jobs</p>
-          <p>Press</p>
-          <p>Blog</p>
-        </div>
-
-        <div class="about-and-co2">
-          <p>Contact Us</p>
-          <p>Terms</p>
-          <p>Privacy</p>
-        </div>
-      </div>
-
-      <div class="flex-around social">
-        <img src="images/icon-facebook.svg" width="10px" height="10px" alt="">
-        <img src="images/icon-instagram.svg" width="10px" height="10px"  alt="">
-        <img src="images/icon-twitter.svg" width="10px" height="10px"  alt="">
-      </div>
-    </div>
-    <p class="attribution">
-      Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
-      Coded by <a href="#">Your Name Here</a>.
-    </p>
-  </footer>
-
-  <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
-  <script>
-    AOS.init();
-  </script>
   
+
+  
+  <div class="history center">
+    <h1>A history of everything you copy</h1>
+    <p class="info">Clipboard allows you to track and organize everything you 
+    copy. Instantly access your clipboard on all your devices.</p>
+    
+
+    <div class="buttons">
+      <button class="button1">Download for iOS</button>
+      <button class="button2">Download for Mac</button>
+    </div>
+  
+    <h2>Keep track of your snippets</h2>
+    <p class="info">
+      Clipboard instantly stores any item you copy in the cloud, 
+      meaning you can access your snippets immediately on all your 
+      devices. Our Mac and iOS apps will help you organize everything.
+    </p>  
+
+    <div class="part-2 center">
+      <div>
+        <img class="monitor" src="images/image-computer.png" width="450px" alt="">
+      </div>
+      <div id="part-2-right">
+        <h3>Quick Search</h3>
+        <p>
+          Easily search your snippets by content, 
+          category, web address, application, and more.
+        </p>
+        <h3>iCloud Sync</h3>
+        <p>
+          Instantly saves and syncs 
+          snippets across all your devices.
+        </p>
+        <h3> Complete History</h3>
+        <p>
+          Retrieve any snippets from 
+          the first moment you started using the app.
+        </p>
+      </div>
+    </div>
+    <div>
+      <h2>Access Clipboard anywhere</h2>
+      <p class="info">
+        Whether you’re on the go, or at your computer, you can access 
+        all your Clipboard snippets in a few simple clicks.
+      </p>
+      <img class="devices" src="images/image-devices.png" width="550px" alt="">
+
+      <div>
+        <h2>Supercharge your workflow</h2>
+      <p class="info">
+        We’ve got the tools to boost your productivity.
+      </p>
+      </div>
+    </div>
+  </div>
+
+  <div class="part-3 center">
+    <div>
+      <img src="images/icon-blacklist.svg" width="40px" alt="">
+      <h3>Create blacklists</h3>
+      <p>
+        Ensure sensitive information never makes
+        its way to your clipboard by excluding certain sources.
+      </p>
+    </div>
+    <div>
+      <img src="images/icon-text.svg" width="40px" alt="">
+      <h3>Plain text snippets</h3>
+      <p>
+        Remove unwanted formatting from copied text for 
+        a consistent look.
+      </p>
+    </div>
+    <div>
+      <img src="images/icon-preview.svg" width="40px" alt="">
+      <h3>Sneak preview</h3>
+      <p>
+        Quick preview of all snippets on your 
+        Clipboard for easy access.
+      </p>
+    </div>
+  </div>
+
+  <div class="companies center">
+    <img src="images/logo-google.png" alt="">
+    <img src="images/logo-ibm.png" alt="">
+    <img src="images/logo-microsoft.png" alt="">
+    <img src="images/logo-hp.png" alt="">
+    <img src="images/logo-vector-graphics.png" alt="">
+  </div>
+
+  <div class="apple center">
+    <h2> Clipboard for iOS and Mac OS</h2>
+    <p class="info">
+      Available for free on the App Store. Download for Mac or iOS, sync with iCloud 
+      and you’re ready to start adding to your clipboard.
+    </p>
+    <div class="buttons">
+      <button class="button1">Download for iOS</button>
+    <button class="button2">Download for Mac</button>
+    </div>
+  </div>
+
+  <footer class="center">
+    <div id="lofo">
+      <img src="images/logo.svg" width="30px" alt="">
+    </div>
+    <div id="links">
+      <p class="item-a">FAQs</p>
+      <p class="item-a">Privacy Policy</p>
+      <p class="item-a ">Install Guide</p>
+      <p class="item-b">Contact Us</p>
+      <p class="item-b">Press Kit</p>
+    </div>
+    <div id="social">
+      <img src="images/icon-facebook.svg" alt="">
+      <img src="images/icon-twitter.svg" alt="">
+      <img src="images/icon-instagram.svg" alt="">
+    </div>
+  </footer>
+  
+  
+
 </body>
 </html>
 
-
-
-
-
-
+<!-- <p class="attribution">
+  Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
+  Coded by <a href="#">Your Name Here</a>.
+</p> -->
