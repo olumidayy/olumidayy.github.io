@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>DayOne</title>
+    <link rel="stylesheet" href="style2.css"/>
+  </head>
+  <body>
+    <h2>Tiara Cakes - Customer Satisfaction Survey Form</h2>
+    <form>
+      <label for="name"><b>Name: </b></label>
+      <input required maxlength="30" type="text" id="Customer Name" /></br>
+      <label for="email"><b>Email: </b></label>
+      <input required type="email" /><br>
+      <b>How often do you purchase from our cakery?</b></br>
+      <input type="radio" id="Weekly" name="how-often" value="Weekly">
+      <label for="Weekly">Weekly</label><br>
+      <input type="radio" id="Fortnightly" name="how-often" value="Fortnightly">
+      <label for="Fortnightly">Fortnightly</label><br>
+      <input type="radio" id="Monthly" name="how-often" value="Monthly">
+      <label for="Monthly">Monthly</label><br>
+      <input type="radio" id="Quaterly" name="how-often" value="Quaterly">
+      <label for="Quaterly">Quaterly</label></br>
+      <input type="radio" id="firsttime" name="how-often" value="firsttime">
+      <label for="firsttime">It's my first time ordering</label><br>
+     <b> Which of these flavors have you tried?</b><br>
+      <input type="checkbox" id="vanilla" name="vanilla" value="vanilla">
+        <label for="vanilla"> Vanilla </label><br>
+      <input type="checkbox" id="chocolate" name="chocolate" value="chocolate">
+        <label for="chocolate"> Chocolate</label><br>
+      <input type="checkbox" id="coconut" name="coconut" value="coconut">
+        <label for="coconut"> Coconut </label><br >
+    <input type="checkbox" id="carrot" name="carrot" value="carrot">
+        <label for="carrot"> Carrot </label><br >
+    <b>How would you rate the following experiences when ordering a cake from us?</b><br>
+    <label for="Booking">Booking Process/Getting in touch (between 0 and 10):</label>
+    <input type="range" id="booking" name="booking" min="0" max="10"><br>
+    <label for="confirmation">          Order Confirmation Details (between 0 and 10):</label>
+    <input type="range" id="confirmation" name="confirmation" min="0" max="10"><br>
+    <label for="pricing"> Pricing (between 0 and 10):</label>
+    <input type="range" id="pricing" name="pricing" min="0" max="10"><br>
+    <label for="delivery"> Delivery Process (between 0 and 10):</label>
+    <input type="range" id="delivery" name="delivery" min="0" max="10"><br>
+    <label for="decoration"> Cake Decoration (between 0 and 10):</label>
+    <input type="range" id="decoration" name="decoration" min="0" max="10"><br>
+    <label for="taste"> Taste (between 0 and 10):</label>
+    <input type="range" id="taste" name="taste" min="0" max="10"><br>
+    <b>Additional Comments:</b><br>
+    <textarea required name="comment" id="comment" cols="80" rows="20"></textarea><br>
+    <button type="submit"><b>Submit</b></button>
+    </form>
+  </body>
+</html>

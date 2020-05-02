@@ -1,0 +1,50 @@
+* {
+  border-box: ;
+  box-sizing: ;
+}
+body {
+  background-color: rgb(8, 8, 29);
+  font-size: 18px;
+}
+
+form {
+  margin: 0 auto;
+  width: 70%;
+  padding: 1em;
+  border: 1px solid #ccc;
+  border-radius: 1em;
+  background-color: rgb(223, 209, 209);
+  text-align: center;
+}
+h2 {
+  color: burlywood;
+  font-family: cursive;
+  text-align: center;
+  font-size: 35px;
+}
+input[type="text"] {
+  width: 40%;
+  padding: 8px 8px;
+  margin: 8px 0;
+  box-sizing: border-box;
+  background-color: rgb(244, 245, 244);
+  color: black;
+  font-size: 15px;
+}
+input[type="email"] {
+  width: 40%;
+  padding: 8px 8px;
+  margin: 8px 0;
+  box-sizing: border-box;
+  background-color: rgb(244, 245, 244);
+  color: black;
+  font-size: 15px;
+}
+textarea {
+  color: black;
+  background-color: rgb(244, 245, 244);
+  width: 50%;
+}
+b {
+  font-size: 20px;
+}
